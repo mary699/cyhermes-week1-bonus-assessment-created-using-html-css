@@ -21,7 +21,6 @@ body{
     border:  2px solid red;
     height: 130vh;
     flex: 3;
-    margin: 10vh;
 
 }
 
@@ -34,8 +33,8 @@ body{
 #group{
     border: 5px solid black;
     position: absolute;
-    top: 100px;
-    left: 150px;
+    top: 50px;
+    left: 90px;
 }
 
 .left-one{
@@ -125,9 +124,7 @@ input{
 }
 
 
-/***************8 STYLING FOR THE LEFT CONTAINER ENDS HERE */
-
-
+/*************** STYLING FOR THE LEFT CONTAINER ENDS HERE */
 
 
 
@@ -138,6 +135,7 @@ height: 130vh;
 flex: 3;
 margin: 10vh 10vh 10vh 5vh;
 }
+
 
 /******************** STYLING FOR THE RIGHT CONTAINER ENDS HERE */
 
