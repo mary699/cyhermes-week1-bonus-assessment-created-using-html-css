@@ -7,8 +7,8 @@ body{
 
 }
 .container{
-    height: 140vh;
-    border: 2px solid blue;
+    height: 155vh;
+    /* border: 2px solid blue; */
    flex-direction: row;
    display: flex;
    flex-wrap: wrap;
@@ -18,7 +18,7 @@ body{
 
 /* STYLING FOR THE LEFT CONATINER STARTS HERE */
 .left-container{
-    border:  2px solid red;
+    /* border:  2px solid red; */
     height: 130vh;
     flex: 3;
 
@@ -31,9 +31,9 @@ body{
 }
 
 #group{
-    border: 5px solid black;
+    /* border: 5px solid black; */
     position: absolute;
-    top: 50px;
+    top: 120px;
     left: 90px;
 }
 
@@ -97,8 +97,8 @@ input{
     width: 80%;
     background-color: rgba(211, 211, 211, 0.281);
     border: 2px solid rgba(211, 211, 211, 0.186);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 10px;
 
 }
@@ -128,16 +128,80 @@ input{
 
 
 
+
+
 /********************STYLING FOR THE RIGHT CONTAINER STARTS HERE */
 .right-container{
-border: 2px solid green;
-height: 130vh;
+border: 2px solid black;
+height: 135vh;
 flex: 3;
-margin: 10vh 10vh 10vh 5vh;
+/* margin: 10vh 10vh 10vh 5vh; */
+}
+.holds-all{
+    display: block;
+    border: 6px solid black;
+    height: 125vh;
+    margin: 10px;
+}
+.right-one{
+border: 2px solid red;
+margin-top: 20px;
+}
+#portal{
+color: black;
+}
+#seven{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 3px 8px;
+}
+#search{
+    background-color: rgba(211, 211, 211, 0.397);
+    border: 1px solid rgb(150, 143, 143);
+   
+}
+.right-one ::placeholder{
+    color: rgba(100, 94, 94, 0.727);
+    padding-left: 20px;
+    font-weight: bolder;
 }
 
-
 /******************** STYLING FOR THE RIGHT CONTAINER ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,7 +227,7 @@ margin: 10vh 10vh 10vh 5vh;
         margin-left: 0vh;
         margin-right: 0vh;
         margin-top: 0vh;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         height: 115vh;
     }
     .bg-image img{
@@ -178,7 +242,7 @@ margin: 10vh 10vh 10vh 5vh;
         border: 5px solid black;
         position: absolute;
         top: 10px;
-        left: 30px;
+        left: 10px;
     }
     .left-one{
         display:flex;
@@ -235,7 +299,8 @@ margin: 10vh 10vh 10vh 5vh;
         margin-left: 0vh;
         margin-right: 0vh;
         margin-top: 0vh;
-
     }
+
+
     /* STYLING FOR THE RIGHT CONTAINER ENDS HERE */
 }
