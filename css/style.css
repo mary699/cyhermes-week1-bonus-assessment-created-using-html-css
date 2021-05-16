@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.container{
+    height: 140vh;
+    border: 2px solid blue;
+   flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+
+
+/* STYLING FOR THE LEFT CONATINER STARTS HERE */
+.left-container{
+    border:  2px solid red;
+    height: 130vh;
+    flex: 3;
+    margin: 10vh;
+
+}
+
+.bg-image img{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#group{
+    border: 5px solid black;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.left-one{
+    display:flex;
+}
+
+.left-one h3{
+     color: white;
+    padding-left: 5vh;
+    padding-top: 2vh;
+}
+
+.left-two{
+    margin-bottom: 5vh;
+}
+
+.left-two h1{
+    color: white;
+}
+
+span{
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+#mgps{
+    color: white;
+    margin-top: 2vh;
+    font-weight: lighter;
+
+}
+
+.left-two p{
+    border: 2px solid orange;
+    width: 25vh;
+
+}
+
+form{
+
+}
+
+form h3{
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+label{
+    color: white;
+    font-weight: lighter;
+}
+
+input{
+    height: 7vh;
+    width: 80%;
+    background-color: rgba(211, 211, 211, 0.281);
+    border: 2px solid rgba(211, 211, 211, 0.186);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+::placeholder{
+    font-size: 12px;
+    padding: 7px 0px 7px 10px;
+    color: white;
+
+}
+
+#btn-one{
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.left-four img{
+    margin-top: 50px;
+}
+
+
+/***************8 STYLING FOR THE LEFT CONTAINER ENDS HERE */
+
+
+
+
+
+/********************STYLING FOR THE RIGHT CONTAINER STARTS HERE */
+.right-container{
+border: 2px solid green;
+height: 130vh;
+flex: 3;
+margin: 10vh 10vh 10vh 5vh;
+}
+
+/******************** STYLING FOR THE RIGHT CONTAINER ENDS HERE */
+
+
+
+
+
+
+
+
+
+/* At responsive */
+@media  (max-width: 850px) {
+    .container{
+        width: 100%;
+        display: block;
+        height: fit-content;
+        
+    }
+
+    /* STYLING FOR THE LEFT CONTAINER STARTS HERE */
+    .left-container{
+        width: 100%;
+        margin-bottom: 10vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
+        margin-top: 0vh;
+        padding-left: 10px;
+        height: 115vh;
+    }
+    .bg-image img{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110vh;
+        width: 100%;
+        
+     }
+    #group{
+        border: 5px solid black;
+        position: absolute;
+        top: 10px;
+        left: 30px;
+    }
+    .left-one{
+        display:flex;
+    }
+    
+    .left-one h3{
+        color: white;
+        padding-left: 2vh;
+        padding-top: 2vh;
+        font-size: 16px;
+    }
+
+    .left-two h1{
+        font-size: 18px;
+    }
+    span{
+        border: 2px solid orange;
+        background-color: orange;
+        color: white;
+        font-size: 9px;
+        border-radius: 5px;
+    
+    }
+    #mgps{
+        color: white;
+        margin-top: 2vh;
+        font-size: 16px;
+    }
+    .left-two{
+        margin-bottom: 3vh;
+    }
+    .left-two p{
+        border: 2px solid orange;
+        width: 20vh;
+    }
+    .left-four img{
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    
+    /* STYLING FOR THE LEFT CONTAINER ENDS HERE */
+
+
+
+
+
+
+
+    /* STYLING FOR THE RIGHT CONTAINER STARTS HERE */
+
+    .right-container{
+        width: 100%;
+        margin-left: 0vh;
+        margin-right: 0vh;
+        margin-top: 0vh;
+
+    }
+    /* STYLING FOR THE RIGHT CONTAINER ENDS HERE */
+}
