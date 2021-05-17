@@ -124,17 +124,17 @@ input{
 }
 
 
-/*************** STYLING FOR THE LEFT CONTAINER ENDS HERE */
+/********* STYLING FOR THE LEFT CONTAINER ENDS HERE */
 
 
 
 
 
-/********************STYLING FOR THE RIGHT CONTAINER STARTS HERE */
+/********STYLING FOR THE RIGHT CONTAINER STARTS HERE */
 .right-container{
-border: 2px solid black;
-height: 135vh;
-flex: 3;
+    border: 2px solid black;
+    height: 135vh;
+    flex: 3;
 /* margin: 10vh 10vh 10vh 5vh; */
 }
 .holds-all{
@@ -144,11 +144,11 @@ flex: 3;
     margin: 10px;
 }
 .right-one{
-border: 2px solid red;
-margin-top: 20px;
+    border: 2px solid red;
+    margin-top: 20px;
 }
 #portal{
-color: black;
+    color: black;
 }
 #seven{
     border: 2px solid green;
@@ -170,7 +170,13 @@ color: black;
     font-weight: bolder;
 }
 
+.right-two{
 
+}
+
+.right-two-form{
+    
+}
 
 
 
