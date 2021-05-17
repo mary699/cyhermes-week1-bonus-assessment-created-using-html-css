@@ -94,7 +94,7 @@ label{
 
 input{
     height: 7vh;
-    width: 80%;
+    width: 100%;
     background-color: rgba(211, 211, 211, 0.281);
     border: 2px solid rgba(211, 211, 211, 0.186);
     margin-top: 15px;
@@ -132,20 +132,19 @@ input{
 
 /********STYLING FOR THE RIGHT CONTAINER STARTS HERE */
 .right-container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 135vh;
     flex: 3;
-/* margin: 10vh 10vh 10vh 5vh; */
+margin: 10vh 10vh 10vh 5vh;
 }
 .holds-all{
     display: block;
-    border: 6px solid black;
     height: 125vh;
     margin: 10px;
 }
 .right-one{
-    border: 2px solid red;
-    margin-top: 20px;
+    /* border: 2px solid red; */
+    margin-top: 40px;
 }
 #portal{
     color: black;
@@ -162,6 +161,7 @@ input{
 #search{
     background-color: rgba(211, 211, 211, 0.397);
     border: 1px solid rgb(150, 143, 143);
+    width: 80%;
    
 }
 .right-one ::placeholder{
@@ -171,32 +171,24 @@ input{
 }
 
 .right-two{
-
+/* border: 3px solid red; */
+margin-top: 20px;
 }
 
 .right-two-form{
     
 }
+select{
+    width: 80%;
+    height: 10vh;
+    font-size: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-weight: bolder;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.right-four{
+.right-three{
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
@@ -208,6 +200,7 @@ input{
     border-left: none;
     font-weight: bolder;
     font-style: normal;
+    margin-top: 80px;
 }
 
 .footer-one{
@@ -242,43 +235,6 @@ font-size: 12px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* At responsive */
 @media  (max-width: 850px) {
     .container{
@@ -295,8 +251,9 @@ font-size: 12px;
         margin-left: 0vh;
         margin-right: 0vh;
         margin-top: 0vh;
-        /* padding-left: 10px; */
+        padding-left: 0vh;
         height: 115vh;
+        display: block;
     }
     .bg-image img{
         background-position: center;
@@ -307,7 +264,6 @@ font-size: 12px;
         
      }
     #group{
-        border: 5px solid black;
         position: absolute;
         top: 10px;
         left: 10px;
@@ -346,19 +302,19 @@ font-size: 12px;
         border: 2px solid orange;
         width: 20vh;
     }
-    .left-four img{
+    .left-three img{
         margin-top: 50px;
+        width: 70%;
+    }
+    form input{
+        width: 65%;
+    }
+    .left-four img{
         width: 100%;
     }
     
     
     /* STYLING FOR THE LEFT CONTAINER ENDS HERE */
-
-
-
-
-
-
 
     /* STYLING FOR THE RIGHT CONTAINER STARTS HERE */
 
@@ -367,78 +323,11 @@ font-size: 12px;
         margin-left: 0vh;
         margin-right: 0vh;
         margin-top: 0vh;
+        display: block;
+  
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-.right-four{
+.right-three{
     border: 1px solid black;
     display: block;
     height: 10vh;
